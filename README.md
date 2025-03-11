@@ -16,13 +16,6 @@
     cd bgfx.cmake
     git submodule update --init --recursive
     ```
-- In the case a repository can not be updated, clone it by yourselves.
-    ```sh
-    rm -rf bx bgfx bimg
-    git clone git@github.com:bkaradzic/bgfx.git
-    git clone git@github.com:bkaradzic/bx.git
-    git clone git@github.com:bkaradzic/bimg.git
-    ```
 
 ## Building
 

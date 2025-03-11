@@ -21,3 +21,5 @@ cd build
 # Run CMake and build
 cmake -DCMAKE_BUILD_TYPE=$BUILD_TYPE ..
 cmake --build .
+
+mv ./build/VulkanUI ./
